@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket Configuration</h1>
+<h1>Building a Help Desk Ticketing System: From Server Setup to Ticket Resolution with osTicket</h1>
 In this project, I installed and configured osTicket, an open-source help desk system, on a virtual machine hosted in Microsoft Azure. I used Remote Desktop to manage the VM, set up IIS as the web server, and walked through the entire lifecycle of ticket management within osTicket.<br />
 
 
