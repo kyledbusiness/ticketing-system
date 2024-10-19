@@ -143,6 +143,6 @@ Resolution and Closure: Agents resolve the issues, communicate with users, and c
 <h2>Conclusion:</h2>
 
 <p>
-This project gave me hands-on experience with setting up and managing a help desk system, demonstrating my ability to configure both the backend and operational side of IT ticket management.
+This project gave me hands-on experience with setting up and managing a help desk system, demonstrating my ability to configure both the backend and operational side of IT ticket management and get familiar with a ticketing system environment as both an administrator and help desk support agent.
 </p>
 <br />
