@@ -24,104 +24,100 @@ To ensure a smooth installation of osTicket, I first installed the necessary pre
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="2056" alt="Screenshot 2024-10-16 at 8 49 19 PM" src="https://github.com/user-attachments/assets/1b86d9cc-fe39-461e-b4a5-2ce827a540fc">
 </p>
 <p>
-Prepare Windows 10 as a Web Server: I installed and enabled IIS, along with the required application features and the IIS Management Console.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Install Required Components:
-
-- Installed PHP Manager, VC Redist, Rewrite Module, and PHP.
-- Installed mySQL and set it up for database management with HeidiSQL.
+Create a Windows 10 Pro Virtual Machine in Azure and use Remote Desktop to access it.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="2056" alt="Screenshot 2024-10-16 at 9 05 02 PM" src="https://github.com/user-attachments/assets/10d671e1-4885-4f3c-9e87-9ea9fd908d04">
 </p>
 <p>
-Install osTicket:
-
-- Downloaded and extracted the osTicket files, placed them in the IIS root directory, and configured it as a website.
-- Tested to ensure osTicket was running properly through IIS.
+Prepare Windows 10 as a Web Server by installing and enabling IIS, along with the required application features and the IIS Management Console.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="2056" alt="Screenshot 2024-10-16 at 9 09 01 PM" src="https://github.com/user-attachments/assets/337f9312-cea4-4806-85ba-a6fa965a8363">
 </p>
 <p>
-Enable Features and Set Permissions:
+Install PHP Manager, VC Redist, Rewrite Module, and PHP.
 
-- Enabled necessary PHP extensions and assigned proper file permissions for security and functionality.
+Install MySQL and set it up for database management with HeidiSQL.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="2056" alt="Screenshot 2024-10-16 at 9 22 05 PM" src="https://github.com/user-attachments/assets/4d7a1f9c-5a61-43ae-b203-572b8e93347a">
 </p>
 <p>
-Complete Setup:
+Download and extract the osTicket files, place them in the IIS root directory, and configure it as a website.
 
-- Registered osTicket, connected it to mySQL, and completed the setup process.
+Test to ensure osTicket is running properly through IIS.
+</p>
+<br />
+
+<p>
+<img width="2056" alt="Screenshot 2024-10-16 at 9 24 19 PM" src="https://github.com/user-attachments/assets/b9413205-a3be-44de-83e7-5c1b884f1826">
+</p>
+<p>
+Enable necessary PHP extensions and assign proper file permissions for security and functionality.
+</p>
+<br />
+
+<p>
+<img width="2056" alt="Screenshot 2024-10-16 at 9 38 08 PM" src="https://github.com/user-attachments/assets/62988fbe-4f9c-4c87-afd8-e2640aa92aae">
+</p>
+<p>
+Register osTicket, connected it to SQL, and completed the setup process.
 </p>
 <br />
 
 <h2>Post-Installation Configuration:</h2>
 <p>
-After the installation, I configured osTicket to function as an efficient help desk system:
+After the installation, configure osTicket to function as an efficient help desk system:
 </p>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="2056" alt="Screenshot 2024-10-16 at 9 49 48 PM" src="https://github.com/user-attachments/assets/4de83a5f-85a9-4367-a98c-8536678f6148">
 </p>
 <p>
-Set up Roles, Departments, and Teams:
-
-- Created roles for administrators and agents and set up teams for different support levels (e.g., Level 1 and Level 2).
+Create roles for administrators and agents and set up teams for different support levels (e.g., Level 1 and Level 2).
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="2056" alt="Screenshot 2024-10-16 at 9 56 51 PM" src="https://github.com/user-attachments/assets/4ca95f30-b2ba-4bfe-afa1-5da939803a24">
 </p>
 <p>
-Add Agents and Users:
-
-- Added support agents and end-users who would be interacting with the ticket system.
+Add support agents and end-users who would be interacting with the ticket system.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="2056" alt="Screenshot 2024-10-16 at 10 07 53 PM" src="https://github.com/user-attachments/assets/1dde7b62-c099-4e95-8397-afe8e163814f">
 </p>
 <p>
 Establish SLAs (Service Level Agreements):
-  
-- Defined response times for various ticket priorities, such as a 1-hour response for critical issues (Sev-A).
+
+Define response times for various ticket priorities, such as a 1-hour response for critical issues (Sev-A).
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="2056" alt="Screenshot 2024-10-16 at 10 16 24 PM" src="https://github.com/user-attachments/assets/701f672c-2348-494e-9f62-eef1b55e38ff">
 </p>
 <p>
-Create Help Topics:
-
-- Set up help topics to categorize user requests, like "Password Resets" or "Equipment Requests."
+Set up help topics to categorize user requests, like "Password Resets" or "Equipment Requests."
 </p>
 <br />
 
 <h2>Managing the Ticket Lifecycle:</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="2056" alt="Screenshot 2024-10-16 at 10 23 22 PM" src="https://github.com/user-attachments/assets/7da77515-0a2e-425b-8fd3-9e7aa4804e9b">
 </p>
 <p>
 Ticket Creation: Users or agents submit tickets via the help desk.
@@ -129,15 +125,15 @@ Ticket Creation: Users or agents submit tickets via the help desk.
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="2056" alt="Screenshot 2024-10-16 at 10 27 43 PM" src="https://github.com/user-attachments/assets/b3d0f38f-0951-4b9b-bf50-439088cce8c2">
 </p>
 <p>
-Ticket Assignment: Tickets are assigned based on priority and category.
+Ticket Assignment: Tickets are supposed to be assigned based on priority and category. Sometimes the end user will not label their tickets correctly, and it is up to the help desk support to fix them so we can address the issue appropriately.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="2056" alt="Screenshot 2024-10-16 at 10 37 12 PM" src="https://github.com/user-attachments/assets/d3733d73-49a5-44ff-96aa-6210b5884f37">
 </p>
 <p>
 Resolution and Closure: Agents resolve the issues, communicate with users, and close tickets once verified.
